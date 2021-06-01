@@ -1,7 +1,7 @@
 # Личный проект «Шесть городов»
 
-* Студент: [Pavel Iugai](https://up.htmlacademy.ru/react/7/user/1462123).
-* Наставник: `Неизвестно`.
+- Студент: [Pavel Iugai](https://up.htmlacademy.ru/react/7/user/1462123).
+- Наставник: [Константин Антонов](https://htmlacademy.ru/profile/rawle51).
 
 ---
 
