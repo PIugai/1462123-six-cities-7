@@ -1,7 +1,9 @@
 import React from 'react';
+import PageMain from '../page-main/page-main.jsx';
+import CARDS from '../../mocks/mock-data.jsx';
 
 function App() {
-  return <p>Hello, world!</p>;
+  return <PageMain cards={CARDS} />;
 }
 
 export default App;
