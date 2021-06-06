@@ -1,8 +1,8 @@
 import React from 'react';
-import PlaceCard from '../place-card/place-card.jsx';
+import PlaceCard from '../components/place-card.jsx';
 import PropTypes from 'prop-types';
 
-function PageMain({cards}) {
+function MainPage({cards}) {
 
   return (
     <>
@@ -121,7 +121,7 @@ function PageMain({cards}) {
   );
 }
 
-PageMain.propTypes = {
+MainPage.propTypes = {
   cards: PropTypes.arrayOf(
     PropTypes.shape({
       price: PropTypes.number.isRequired,
@@ -134,4 +134,4 @@ PageMain.propTypes = {
 };
 
 
-export default PageMain;
+export default MainPage;
